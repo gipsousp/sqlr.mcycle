@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  <url>
+    <loc>https://gipsousp.github.io/sqlr.mcycle/index.html</loc>
+  </url>
+  <url>
+    <loc>https://gipsousp.github.io/sqlr.mcycle/reference/constraint.html</loc>
+  </url>
+  <url>
+    <loc>https://gipsousp.github.io/sqlr.mcycle/reference/domain.html</loc>
+  </url>
+  <url>
+    <loc>https://gipsousp.github.io/sqlr.mcycle/reference/keyword.html</loc>
+  </url>
+  <url>
+    <loc>https://gipsousp.github.io/sqlr.mcycle/reference/raw_data.html</loc>
+  </url>
+  <url>
+    <loc>https://gipsousp.github.io/sqlr.mcycle/reference/search.html</loc>
+  </url>
+  <url>
+    <loc>https://gipsousp.github.io/sqlr.mcycle/reference/sheets.html</loc>
+  </url>
+  <url>
+    <loc>https://gipsousp.github.io/sqlr.mcycle/reference/source.html</loc>
+  </url>
+  <url>
+    <loc>https://gipsousp.github.io/sqlr.mcycle/reference/sqlr.mcycle-package.html</loc>
+  </url>
+</urlset>
