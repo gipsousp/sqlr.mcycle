@@ -1,0 +1,24 @@
+citHeader("To cite sqlr.mcycle in publications use:")
+
+citEntry(
+  entry       = "Unpublished",
+  title       = paste0("sqlr.mcycle: ",
+                       "an R package with the research compendium of the ",
+                       "project: sleep-wake cycle and menstrual cycle: ",
+                       "a systematic quantitative literature review"),
+  author      = personList(as.person("Poliana Silveira da Silva Goncalves"),
+                           as.person("Daniel Vartanian"),
+                           as.person("Ana Amelia Benedito-Silva"),
+                           as.person("Mario Pedrazzoli")),
+  year        = "2021",
+  url         = paste0("https://gipsousp.github.io/sqlr.mcycle/"),
+  textVersion = paste0("Gocalves, P. S. S., Vartanian, D., ",
+                       "Benedito-Silva, A. A., Pedrazzoli, M. (2021). ",
+                       "sqlr.mcycle: ",
+                       "an R package with the research compendium of the ",
+                       "project: sleep-wake cycle and menstrual cycle: ",
+                       "a systematic quantitative literature review. ",
+                       "Retrieved from https://gipsousp.github.io/",
+                       "sqlr.mcycle/."),
+  note        = "Lifecycle: experimental"
+)

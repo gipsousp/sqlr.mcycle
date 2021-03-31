@@ -1,0 +1,67 @@
+Package: sqlr.mcycle
+Title: An R Package for the Sleep and Mestrual Cycle Project
+Version: 0.0.0.9000
+Authors@R: 
+    c(person(given = "Poliana",
+             family = "Silveira da Silva Goncalves",
+             role = c("aut", "cph"),
+             email = "danvartan@gmail.com",
+             comment = c(ORCID = "0000-0001-7782-759X")),
+      person(given = "Daniel",
+             family = "Vartanian",
+             role = c("aut", "cre", "cph"),
+             email = "danvartan@gmail.com",
+             comment = c(ORCID = "0000-0001-7782-759X")),
+      person(given = "Ana Amelia",
+             family = "Benedito-Silva",
+             email = "aamelia@usp.br",
+             role = c("aut", "sad"),
+             comment = c(ORCID = "0000-0003-4976-2623")),
+      person(given = "Mario",
+             family = "Pedrazzoli",
+             email = "pedrazzo@usp.br",
+             role = c("aut", "sad"),
+             comment = c(ORCID = "0000-0002-5257-591X")),
+      person(given = "Interdisciplinary Sleep Research Group (GIPSO)",
+             role = c("fnd", "cph")),
+      person(given = "University of Sao Paulo (USP)",
+             role = c("fnd")))
+Maintainer: Daniel Vartanian <danvartan@gmail.com>
+Description: An R package with the research compendium of the project: 
+      Sleep-Wake Cycle and Menstrual Cycle: A Systematic Quantitative Literature 
+      Review.
+License: MIT + file LICENSE
+URL: https://gipsousp.github.io/sqlr.mcycle, https://gipsousp.github.io/sqlr.mcycle/, https://github.com/gipsousp/sqlr.mcycle/
+BugReports: https://github.com/gipsousp/sqlr.mcycle/issues/
+Encoding: UTF-8
+LazyData: true
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.1.1
+Depends:
+    R (>= 3.6)
+Imports: 
+    checkmate,
+    dplyr,
+    lifecycle,
+    magrittr,
+    sqlr,
+    stringr
+Suggests: 
+    covr,
+    crayon,
+    ggplot2,
+    googlesheets4,
+    grDevices,
+    knitr,
+    rlang,
+    rmarkdown,
+    spelling,
+    synthesisr,
+    testthat (>= 3.0.0),
+    usethis,
+    utils
+Remotes:
+    github::gipsousp/sqlr
+Config/testthat/edition: 3
+VignetteBuilder: knitr
+Language: en-US
