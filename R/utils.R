@@ -38,3 +38,11 @@ enclosure <- function(x, type = "double quote") {
         paste0("[", x, "]")
     }
 }
+
+shush <- function(x, quiet = TRUE) {
+    if (isTRUE(quiet)) {
+        suppressMessages(suppressWarnings(x))
+    } else {
+        x
+    }
+}
