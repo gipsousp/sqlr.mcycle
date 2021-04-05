@@ -1,11 +1,11 @@
 Package: sqlr.mcycle
-Title: An R Package for the Sleep and Mestrual Cycle Project
+Title: An R Package for the Sleep-Wake and Mestrual Cycle Project
 Version: 0.0.0.9000
 Authors@R: 
     c(person(given = "Poliana",
              family = "Silveira da Silva Goncalves",
              role = c("aut", "cph"),
-             email = "danvartan@gmail.com",
+             email = "polianassgon@gmail.com",
              comment = c(ORCID = "0000-0001-7782-759X")),
       person(given = "Daniel",
              family = "Vartanian",
@@ -27,8 +27,8 @@ Authors@R:
       person(given = "University of Sao Paulo (USP)",
              role = c("fnd")))
 Maintainer: Daniel Vartanian <danvartan@gmail.com>
-Description: R package for the project: Sleep-wake cycle and menstrual cycle: 
-      A systematic quantitative literature review.
+Description: R package for the project: sleep-wake and menstrual cycle: 
+      a systematic quantitative literature review.
 License: MIT + file LICENSE
 URL: https://gipsousp.github.io/sqlr.mcycle, https://gipsousp.github.io/sqlr.mcycle/, https://github.com/gipsousp/sqlr.mcycle/
 BugReports: https://github.com/gipsousp/sqlr.mcycle/issues/

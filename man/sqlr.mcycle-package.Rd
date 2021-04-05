@@ -8,9 +8,8 @@
 \description{
 \if{html}{\figure{logo.png}{options: align='right' alt='logo' width='120'}}
 
-An R package with the research compendium of the project: 
-      Sleep-Wake Cycle and Menstrual Cycle: A Systematic Quantitative Literature 
-      Review.
+R package for the project: Sleep-wake cycle and menstrual cycle: 
+      A systematic quantitative literature review.
 }
 \seealso{
 Useful links:
@@ -27,7 +26,7 @@ Useful links:
 
 Authors:
 \itemize{
-  \item Poliana Silveira da Silva Goncalves \email{danvartan@gmail.com} (\href{https://orcid.org/0000-0001-7782-759X}{ORCID}) [copyright holder]
+  \item Poliana Silveira da Silva Goncalves \email{polianassgon@gmail.com} (\href{https://orcid.org/0000-0001-7782-759X}{ORCID}) [copyright holder]
   \item Ana Amelia Benedito-Silva \email{aamelia@usp.br} (\href{https://orcid.org/0000-0003-4976-2623}{ORCID}) [scientific advisor]
   \item Mario Pedrazzoli \email{pedrazzo@usp.br} (\href{https://orcid.org/0000-0002-5257-591X}{ORCID}) [scientific advisor]
 }

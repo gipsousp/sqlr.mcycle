@@ -20,8 +20,8 @@ MIT](https://img.shields.io/badge/license-MIT-green)](https://choosealicense.com
 <!-- badges: end -->
 
 `sqlr.mcycle` is an R package with the research compendium of the
-project: Sleep-Wake Cycle and Menstrual Cycle: A Systematic Quantitative
-Literature Review. The aim of `sqlr.mcycle` is to facilitate the
+project: sleep-wake and menstrual cycle: a systematic quantitative
+literature review. The aim of `sqlr.mcycle` is to facilitate the
 research work, in addition to contributing to the reproducibility of the
 research.
 
