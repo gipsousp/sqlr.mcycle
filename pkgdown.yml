@@ -2,7 +2,7 @@ pandoc: 2.7.3
 pkgdown: 1.6.1
 pkgdown_sha: ~
 articles: {}
-last_built: 2021-03-31T07:43Z
+last_built: 2021-04-05T22:01Z
 urls:
   reference: https://gipsousp.github.io/sqlr.mcycle/reference
   article: https://gipsousp.github.io/sqlr.mcycle/articles
