@@ -4,12 +4,12 @@
 \name{sqlr.mcycle-package}
 \alias{sqlr.mcycle}
 \alias{sqlr.mcycle-package}
-\title{sqlr.mcycle: An R Package for the Sleep and Mestrual Cycle Project}
+\title{sqlr.mcycle: An R Package for the Sleep-Wake and Mestrual Cycle Project}
 \description{
 \if{html}{\figure{logo.png}{options: align='right' alt='logo' width='120'}}
 
-R package for the project: Sleep-wake cycle and menstrual cycle: 
-      A systematic quantitative literature review.
+R package for the project: sleep-wake and menstrual cycle: 
+      a systematic quantitative literature review.
 }
 \seealso{
 Useful links:

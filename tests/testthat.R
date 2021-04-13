@@ -22,9 +22,28 @@ test_check("sqlr.mcycle")
 # goodpractice::gp()
 # spelling::spell_check_package()
 # spelling::update_wordlist()
-# normalizePath(readClipboard(), "/", mustWork = FALSE)
+# usethis::use_tidy_description()
+# usethis::use_coverage()
+# usethis::use_pkgdown_github_pages()
+# usethis::use_github_action_check_full()
+# usethis::use_github_action_check_standard()
 # usethis::use_logo("./.archive/ai/hex-logo.png")
-
+# normalizePath(readClipboard(), "/", mustWork = FALSE)
+#
+# # SQLR
+# sqlr::write_sheet()
+# sqlr::write_query()
+#
+# # Read references
+# file <- "2021-04-05 - Citations - PubMed - EN - 1-2821.txt"
+# path <- "C:\\Users\\Daniel\\Desktop\\"
+# file <- paste0(path, file)
+# test <- synthesisr::read_ref(file)
+#
+# path <- "C:\\Users\\Daniel\\Desktop\\TEMP\\"
+# files <- paste0(path, dir(path))
+# test <- synthesisr::read_refs(files)
+#
 # # Normalize file names
 # path <- "./inst/extdata/citation/"
 # path <- "./inst/extdata/search_history/"
