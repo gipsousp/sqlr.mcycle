@@ -5,8 +5,8 @@
   ],
   "@type": "SoftwareSourceCode",
   "identifier": "sqlr.mcycle",
-  "description": "An R package with the research compendium of the project: \n      Sleep-Wake Cycle and Menstrual Cycle: A Systematic Quantitative Literature \n      Review.",
-  "name": "sqlr.mcycle: An R Package for the Sleep and Mestrual Cycle Project",
+  "description": "R package for the project: sleep-wake and menstrual cycle: \n      a systematic quantitative literature review.",
+  "name": "sqlr.mcycle: An R Package for the Sleep-Wake and Mestrual Cycle Project",
   "codeRepository": "https://github.com/gipsousp/sqlr.mcycle/",
   "relatedLink": [
     "https://gipsousp.github.io/sqlr.template/",
@@ -27,7 +27,7 @@
       "@type": "Person",
       "givenName": "Poliana",
       "familyName": "Silveira da Silva Goncalves",
-      "email": "danvartan@gmail.com",
+      "email": "polianassgon@gmail.com",
       "@id": "https://orcid.org/0000-0001-7782-759X"
     },
     {
@@ -58,7 +58,7 @@
       "@type": "Person",
       "givenName": "Poliana",
       "familyName": "Silveira da Silva Goncalves",
-      "email": "danvartan@gmail.com",
+      "email": "polianassgon@gmail.com",
       "@id": "https://orcid.org/0000-0001-7782-759X"
     },
     {
@@ -119,32 +119,15 @@
     },
     {
       "@type": "SoftwareApplication",
-      "identifier": "ggplot2",
-      "name": "ggplot2",
+      "identifier": "emojifont",
+      "name": "emojifont",
       "provider": {
         "@id": "https://cran.r-project.org",
         "@type": "Organization",
         "name": "Comprehensive R Archive Network (CRAN)",
         "url": "https://cran.r-project.org"
       },
-      "sameAs": "https://CRAN.R-project.org/package=ggplot2"
-    },
-    {
-      "@type": "SoftwareApplication",
-      "identifier": "googlesheets4",
-      "name": "googlesheets4",
-      "provider": {
-        "@id": "https://cran.r-project.org",
-        "@type": "Organization",
-        "name": "Comprehensive R Archive Network (CRAN)",
-        "url": "https://cran.r-project.org"
-      },
-      "sameAs": "https://CRAN.R-project.org/package=googlesheets4"
-    },
-    {
-      "@type": "SoftwareApplication",
-      "identifier": "grDevices",
-      "name": "grDevices"
+      "sameAs": "https://CRAN.R-project.org/package=emojifont"
     },
     {
       "@type": "SoftwareApplication",
@@ -157,18 +140,6 @@
         "url": "https://cran.r-project.org"
       },
       "sameAs": "https://CRAN.R-project.org/package=knitr"
-    },
-    {
-      "@type": "SoftwareApplication",
-      "identifier": "rlang",
-      "name": "rlang",
-      "provider": {
-        "@id": "https://cran.r-project.org",
-        "@type": "Organization",
-        "name": "Comprehensive R Archive Network (CRAN)",
-        "url": "https://cran.r-project.org"
-      },
-      "sameAs": "https://CRAN.R-project.org/package=rlang"
     },
     {
       "@type": "SoftwareApplication",
@@ -196,18 +167,6 @@
     },
     {
       "@type": "SoftwareApplication",
-      "identifier": "synthesisr",
-      "name": "synthesisr",
-      "provider": {
-        "@id": "https://cran.r-project.org",
-        "@type": "Organization",
-        "name": "Comprehensive R Archive Network (CRAN)",
-        "url": "https://cran.r-project.org"
-      },
-      "sameAs": "https://CRAN.R-project.org/package=synthesisr"
-    },
-    {
-      "@type": "SoftwareApplication",
       "identifier": "testthat",
       "name": "testthat",
       "version": ">= 3.0.0",
@@ -218,18 +177,6 @@
         "url": "https://cran.r-project.org"
       },
       "sameAs": "https://CRAN.R-project.org/package=testthat"
-    },
-    {
-      "@type": "SoftwareApplication",
-      "identifier": "usethis",
-      "name": "usethis",
-      "provider": {
-        "@id": "https://cran.r-project.org",
-        "@type": "Organization",
-        "name": "Comprehensive R Archive Network (CRAN)",
-        "url": "https://cran.r-project.org"
-      },
-      "sameAs": "https://CRAN.R-project.org/package=usethis"
     },
     {
       "@type": "SoftwareApplication",
@@ -255,18 +202,6 @@
         "url": "https://cran.r-project.org"
       },
       "sameAs": "https://CRAN.R-project.org/package=checkmate"
-    },
-    {
-      "@type": "SoftwareApplication",
-      "identifier": "dplyr",
-      "name": "dplyr",
-      "provider": {
-        "@id": "https://cran.r-project.org",
-        "@type": "Organization",
-        "name": "Comprehensive R Archive Network (CRAN)",
-        "url": "https://cran.r-project.org"
-      },
-      "sameAs": "https://CRAN.R-project.org/package=dplyr"
     },
     {
       "@type": "SoftwareApplication",
@@ -297,23 +232,11 @@
       "identifier": "sqlr",
       "name": "sqlr",
       "sameAs": "https://github.com/gipsousp/sqlr"
-    },
-    {
-      "@type": "SoftwareApplication",
-      "identifier": "stringr",
-      "name": "stringr",
-      "provider": {
-        "@id": "https://cran.r-project.org",
-        "@type": "Organization",
-        "name": "Comprehensive R Archive Network (CRAN)",
-        "url": "https://cran.r-project.org"
-      },
-      "sameAs": "https://CRAN.R-project.org/package=stringr"
     }
   ],
   "readme": "https://github.com/gipsousp/sqlr.mcycle/blob/master/README.md",
-  "fileSize": "122.329KB",
-  "contIntegration": ["https://travis-ci.com/gipsousp/sqlr.mcycle", "https://codecov.io/gh/gipsousp/sqlr.mcycle?branch=master"],
+  "fileSize": "50597.146KB",
+  "contIntegration": "https://codecov.io/gh/gipsousp/sqlr.mcycle?branch=master",
   "developmentStatus": ["https://www.repostatus.org/#wip", "https://lifecycle.r-lib.org/articles/stages.html#experimental"],
   "releaseNotes": "https://github.com/gipsousp/sqlr.mcycle/blob/master/NEWS.md",
   "keywords": [
@@ -348,7 +271,7 @@
           "familyName": "Pedrazzoli"
         }
       ],
-      "name": "sqlr.mcycle: an R package with the research compendium of the project: sleep-wake cycle and menstrual cycle: a systematic quantitative literature review",
+      "name": "sqlr.mcycle: an R package with the research compendium of the project: sleep-wake and menstrual cycle: a systematic quantitative literature review",
       "url": "https://gipsousp.github.io/sqlr.mcycle/",
       "description": "Lifecycle: experimental"
     }

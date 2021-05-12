@@ -34,29 +34,23 @@ URL: https://gipsousp.github.io/sqlr.mcycle, https://gipsousp.github.io/sqlr.mcy
 BugReports: https://github.com/gipsousp/sqlr.mcycle/issues/
 Encoding: UTF-8
 LazyData: true
+LazyDataCompression: bzip2
 Roxygen: list(markdown = TRUE)
 RoxygenNote: 7.1.1
 Depends:
     R (>= 3.6)
 Imports: 
     checkmate,
-    dplyr,
     lifecycle,
     magrittr,
-    sqlr,
-    stringr
+    sqlr
 Suggests: 
     covr,
     crayon,
-    ggplot2,
-    googlesheets4,
-    grDevices,
+    emojifont,
     knitr,
-    revtools,
-    rlang,
     rmarkdown,
     spelling,
-    synthesisr,
     testthat (>= 3.0.0),
     utils
 Remotes:

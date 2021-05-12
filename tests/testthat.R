@@ -29,25 +29,18 @@ test_check("sqlr.mcycle")
 # usethis::use_github_action_check_standard()
 # usethis::use_logo("./.archive/ai/hex-logo.png")
 # normalizePath(readClipboard(), "/", mustWork = FALSE)
+
+# SQLR System
 #
-# # SQLR
+# sqlr::write_metadata("1ZKCBn3emTds8koqZ08QTeCtG8MGVK1Z-xgzTo4BDHI4")
 # sqlr::write_sheet()
-# sqlr::write_query()
+# devtools::document()
+# .rs.restartR()
+# devtools::install()
 #
-# # Read references
-# file <- "2021-04-05 - Citations - PubMed - EN - 1-2821.txt"
-# path <- "C:\\Users\\Daniel\\Desktop\\"
-# file <- paste0(path, file)
-# test <- synthesisr::read_ref(file)
-#
-# path <- "C:\\Users\\Daniel\\Desktop\\TEMP\\"
-# files <- paste0(path, dir(path))
-# test <- synthesisr::read_refs(files)
-#
-# # Normalize file names
-# path <- "./inst/extdata/citation/"
-# path <- "./inst/extdata/search_history/"
-# new_name <- tolower(dir(path))
-# new_name <- stringr::str_replace_all(new_name, " - ", "_")
-# new_name <- stringr::str_replace_all(new_name, " ", "-")
-# file.rename(paste0(path, dir(path)), paste0(path, new_name))
+# sqlr::normalize_extdata()
+# devtools::load_all(".")
+# sqlr::build_reference()
+# sqlr::write_trial()
+# nrow(dplyr::filter(reference, criteria_id == "DUP")) +
+# sqlr::sheet_nrow("trial_nr1") == nrow(reference)
