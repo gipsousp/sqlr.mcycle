@@ -1,7 +1,7 @@
 
 <!-- README.md is generated from README.Rmd. Please edit that file -->
 
-# sqlr.mcycle <a href='https://gipsousp.github.io/sqlr.template'><img src='man/figures/logo.png' align="right" height="139" /></a>
+# sqlr.mcycle
 
 <!-- badges: start -->
 
@@ -10,9 +10,8 @@ has not yet been a stable, usable release suitable for the
 public.](https://www.repostatus.org/badges/latest/wip.svg)](https://www.repostatus.org/#wip)
 [![Lifecycle:
 experimental](https://img.shields.io/badge/lifecycle-experimental-orange.svg)](https://lifecycle.r-lib.org/articles/stages.html#experimental)
-[![R-CMD-check](https://github.com/gipsousp/sqlr.mcycle/workflows/R-CMD-check/badge.svg)](https://github.com/gipsousp/sqlr.mcycle/actions)
-[![Codecov test
-coverage](https://codecov.io/gh/gipsousp/sqlr.mcycle/branch/master/graph/badge.svg)](https://codecov.io/gh/gipsousp/sqlr.mcycle?branch=master)
+[![R-CMD-check](https://github.com/gipso/sqlr.mcycle/workflows/R-CMD-check/badge.svg)](https://github.com/gipso/sqlr.mcycle/actions)
+[![codecov](https://codecov.io/gh/gipso/sqlr.mcycle/branch/main/graph/badge.svg?token=2bnHxbdw4M)](https://codecov.io/gh/gipso/sqlr.mcycle)
 [![License:
 MIT](https://img.shields.io/badge/license-MIT-green)](https://choosealicense.com/licenses/mit/)
 <!-- badges: end -->
@@ -41,7 +40,7 @@ You can install `sqlr.mcycle` from GitHub with:
 
 ``` r
 # install.packages("sqlr.mcycle")
-devtools::install_github("gipsousp/sqlr.mcycle", dependencies = TRUE)
+devtools::install_github("gipso/sqlr.mcycle", dependencies = TRUE)
 ```
 
 ## Citation
@@ -56,18 +55,18 @@ citation("sqlr.mcycle")
 #> To cite sqlr.mcycle in publications use:
 #> 
 #>   Gocalves, P. S. S., Vartanian, D., Benedito-Silva, A. A., Pedrazzoli,
-#>   M. (2021). sqlr.mcycle: an R package with the research compendium of
-#>   the project: sleep-wake cycle and menstrual cycle: a systematic
+#>   M. (2021). {sqlr.mcycle}: an R package with the research compendium
+#>   of the project: sleep-wake and menstrual cycle: a systematic
 #>   quantitative literature review. Retrieved from
-#>   https://gipsousp.github.io/sqlr.mcycle/.
+#>   https://gipso.github.io/sqlr.mcycle/.
 #> 
 #> A BibTeX entry for LaTeX users is
 #> 
 #>   @Unpublished{,
-#>     title = {sqlr.mcycle: an R package with the research compendium of the project: sleep-wake cycle and menstrual cycle: a systematic quantitative literature review},
+#>     title = {{sqlr.mcycle}: an R package with the research compendium of the sleep-wake and menstrual cycle project: a systematic quantitative literature review},
 #>     author = {Poliana Silveira da Silva Goncalves and Daniel Vartanian and Ana Amelia Benedito-Silva and Mario Pedrazzoli},
 #>     year = {2021},
-#>     url = {https://gipsousp.github.io/sqlr.mcycle/},
+#>     url = {https://gipso.github.io/sqlr.mcycle/},
 #>     note = {Lifecycle: experimental},
 #>   }
 ```

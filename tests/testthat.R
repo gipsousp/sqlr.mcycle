@@ -1,3 +1,4 @@
+library(checkmate)
 library(testthat)
 library(sqlr.mcycle)
 
@@ -6,41 +7,55 @@ test_check("sqlr.mcycle")
 # # For development use only (comment the code after use (Ctrl + Shift + C))
 #
 # .rs.restartR()
-# devtools::install()
-# devtools::document()
-# devtools:test()
-# devtools::check()
-# covr::package_coverage()
-# covr::codecov(token = "")
-# pkgdown::build_site(preview = TRUE)
-# pkgdown::build_favicons(overwrite = TRUE)
-# pkgdown::build_article("mctq")
-# pkgdown::build_reference(preview = FALSE)
-# codemetar::write_codemeta()
 # codemetar::give_opinions()
-# urlchecker::url_check()
+# codemetar::write_codemeta()
+# covr::package_coverage()
+# devtools::check()
+# devtools::document()
+# devtools::install()
+# devtools:test()
 # goodpractice::gp()
+# normalizePath(readClipboard(), "/", mustWork = FALSE)
+# pkgdown::build_article("mctq")
+# pkgdown::build_favicons(overwrite = TRUE)
+# pkgdown::build_reference(preview = FALSE)
+# pkgdown::build_site(preview = TRUE)
 # spelling::spell_check_package()
 # spelling::update_wordlist()
-# usethis::use_tidy_description()
+# urlchecker::url_check()
 # usethis::use_coverage()
-# usethis::use_pkgdown_github_pages()
-# usethis::use_github_action_check_full()
-# usethis::use_github_action_check_standard()
+# usethis::use_github_action("check-pak")
+# usethis::use_github_action("pkgdown-pak")
+# usethis::use_github_action("test-coverage-pak")
 # usethis::use_logo("./.archive/ai/hex-logo.png")
-# normalizePath(readClipboard(), "/", mustWork = FALSE)
+# usethis::use_pkgdown_github_pages()
+# usethis::use_tidy_description()
 
 # SQLR System
 #
+# googlesheets4::gs4_auth()
+#
 # sqlr::write_metadata("1ZKCBn3emTds8koqZ08QTeCtG8MGVK1Z-xgzTo4BDHI4")
+# devtools::document()
+# devtools::load_all()
 # sqlr::write_sheet()
 # devtools::document()
+# devtools::load_all()
+#
 # .rs.restartR()
+#
 # devtools::install()
 #
-# sqlr::normalize_extdata()
 # devtools::load_all(".")
 # sqlr::build_reference()
+#
+# devtools::document()
+# devtools::load_all()
+#
 # sqlr::write_trial()
 # nrow(dplyr::filter(reference, criteria_id == "DUP")) +
 # sqlr::sheet_nrow("trial_nr1") == nrow(reference)
+#
+# .rs.restartR()
+#
+# devtools::install()

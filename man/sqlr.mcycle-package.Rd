@@ -6,18 +6,15 @@
 \alias{sqlr.mcycle-package}
 \title{sqlr.mcycle: An R Package for the Sleep-Wake and Mestrual Cycle Project}
 \description{
-\if{html}{\figure{logo.png}{options: align='right' alt='logo' width='120'}}
-
-R package for the project: sleep-wake and menstrual cycle: 
-      a systematic quantitative literature review.
+Research compendium of the sleep-wake and menstrual cycle 
+      project: a systematic quantitative literature review.
 }
 \seealso{
 Useful links:
 \itemize{
-  \item \url{https://gipsousp.github.io/sqlr.mcycle}
-  \item \url{https://gipsousp.github.io/sqlr.mcycle/}
-  \item \url{https://github.com/gipsousp/sqlr.mcycle/}
-  \item Report bugs at \url{https://github.com/gipsousp/sqlr.mcycle/issues/}
+  \item \url{https://gipso.github.io/sqlr.mcycle}
+  \item \url{https://gipso.github.io/sqlr.mcycle/}
+  \item Report bugs at \url{https://github.com/gipso/sqlr.mcycle/issues/}
 }
 
 }
@@ -33,7 +30,7 @@ Authors:
 
 Other contributors:
 \itemize{
-  \item Interdisciplinary Sleep Research Group (GIPSO) [funder, copyright holder]
+  \item Interdisciplinary Sleep Research Group (GIPSO) [funder]
   \item University of Sao Paulo (USP) [funder]
 }
 

@@ -23,38 +23,38 @@ Authors@R:
              role = c("aut", "sad"),
              comment = c(ORCID = "0000-0002-5257-591X")),
       person(given = "Interdisciplinary Sleep Research Group (GIPSO)",
-             role = c("fnd", "cph")),
+             role = "fnd"),
       person(given = "University of Sao Paulo (USP)",
-             role = c("fnd")))
+             role = "fnd"))
 Maintainer: Daniel Vartanian <danvartan@gmail.com>
-Description: R package for the project: sleep-wake and menstrual cycle: 
-      a systematic quantitative literature review.
+Description: Research compendium of the sleep-wake and menstrual cycle 
+      project: a systematic quantitative literature review.
 License: MIT + file LICENSE
-URL: https://gipsousp.github.io/sqlr.mcycle, https://gipsousp.github.io/sqlr.mcycle/, https://github.com/gipsousp/sqlr.mcycle/
-BugReports: https://github.com/gipsousp/sqlr.mcycle/issues/
+URL: https://gipso.github.io/sqlr.mcycle, https://gipso.github.io/sqlr.mcycle/
+BugReports: https://github.com/gipso/sqlr.mcycle/issues/
+Depends:
+    R (>= 4.1)
+Imports: 
+    checkmate (>= 2.0.0),
+    cli (>= 3.0.1),
+    dplyr (>= 1.0.7),
+    lifecycle (>= 1.0.0),
+    sqlr
+Suggests: 
+    covr,
+    knitr,
+    mockr,
+    rmarkdown,
+    spelling,
+    testthat (>= 3.0.0)
+Remotes: 
+    github::gipso/sqlr
+VignetteBuilder: 
+    knitr
+Config/testthat/edition: 3
 Encoding: UTF-8
+Language: en-US
 LazyData: true
 LazyDataCompression: bzip2
 Roxygen: list(markdown = TRUE)
 RoxygenNote: 7.1.1
-Depends:
-    R (>= 3.6)
-Imports: 
-    checkmate,
-    lifecycle,
-    magrittr,
-    sqlr
-Suggests: 
-    covr,
-    crayon,
-    emojifont,
-    knitr,
-    rmarkdown,
-    spelling,
-    testthat (>= 3.0.0),
-    utils
-Remotes:
-    github::gipsousp/sqlr
-Config/testthat/edition: 3
-VignetteBuilder: knitr
-Language: en-US

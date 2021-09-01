@@ -1,4 +1,4 @@
-url: https://gipsousp.github.io/sqlr.mcycle
+url: https://gipso.github.io/sqlr.mcycle
 
 template:
   params:
@@ -25,6 +25,11 @@ reference:
   - keyword
   - source
   - search
+  - criteria
+  - trial
+  - critical_appraisal
+  - reference
+  - document
 
 - title: Utilities
   contents:
